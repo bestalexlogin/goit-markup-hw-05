@@ -831,12 +831,7 @@ img {
   margin-right: 8px;
 }
 
-/* .form-checkbox:checked + .checkbox-label-icon {
-  background-color: var(--ocean, #404bbf);
-  border: none;
-  fill: var(--cloud, #f4f4fd);
-} */
-input[type='checkbox']:checked {
+.form-checkbox:checked + .form-checkbox-label .checkbox-label-icon {
   background-color: var(--ocean, #404bbf);
   border: none;
   fill: var(--cloud, #f4f4fd);
