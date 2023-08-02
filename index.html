@@ -543,16 +543,36 @@
               </svg>
             </div>
           </div>
-
           <div class="modal-form-textarea">
             <label class="modal-form-label" for="user-comment">Comment</label>
             <textarea
-              type="email"
               class="modal-textarea"
               name="user-comment"
               id="user-comment"
               placeholder="Text input"
             ></textarea>
+          </div>
+
+          <div class="modal-form-terms">
+            <input
+              class="form-checkbox visually-hidden"
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
+            />
+            <label class="form-checkbox-label" for="user-privacy"
+              ><span class="checkbox-label-icon"
+                ><svg class="label-icon-terms" width="10" height="8">
+                  <use
+                    href="./images/icons.svg#icon-checkbox-icon"
+                  ></use></svg></span
+              >I accept the terms and conditions of the<a
+                href=""
+                class="label-terms-link"
+                >Privacy Policy</a
+              ></label
+            >
           </div>
           <button class="modal-form-button" type="submit">Send</button>
         </form>
